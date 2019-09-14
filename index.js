@@ -1,11 +1,6 @@
 const express = require("express");
 const app = express();
 
-let usuario = {
-    nombre: '',
-    apellido: ''
-};
-
 app.get('/', function (req, res) {
     res.send('Saludos desde express');
 });
